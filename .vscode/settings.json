@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "*.jinja": "html",
+    "cmath": "cpp",
+    "ostream": "cpp",
+    "iomanip": "cpp"
+  }
+}
