@@ -252,7 +252,7 @@ class ChessGame:
         screen.blit(white_label, (10, 10))
         screen.blit(black_label, (WINDOW_SIZE - 180, 10))
 
-        # Draw powerups
+        # Draw powerups 
         for i, powerup in enumerate(self.powerups.white_powerups):
             screen.blit(self.powerups.powerup_types[powerup], 
                        (10, 50 + i * (self.powerups.icon_size + 10)))
