@@ -4,10 +4,10 @@
 
 To play, firstly clone the repo, then run:
 (Windows)
-```bash
+```
 python main.py
 ```
 (Mac)
-```bash
+```
 python3 main.py
 ```
