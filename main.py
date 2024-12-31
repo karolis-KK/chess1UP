@@ -264,7 +264,7 @@ class ChessGame:
 
     def animate_powerup(self, powerup_color, powerup_type):
         if powerup_type == 'purple':
-            # Pulsate effect with gradient
+            # Pulsate effect with gradient 
             for i in range(20):
                 overlay = pygame.Surface((WINDOW_SIZE, BOARD_SIZE), pygame.SRCALPHA)
                 alpha = 255 - (i * 12) if i < 10 else (i * 12) - 255
