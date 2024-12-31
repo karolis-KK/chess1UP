@@ -1,9 +1,14 @@
 {
   "files.associations": {
+    "*.dbclient-js": "javascript",
     "*.html": "html",
     "*.jinja": "html",
     "cmath": "cpp",
     "ostream": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "vector": "cpp",
+    "xutility": "cpp"
   }
 }
